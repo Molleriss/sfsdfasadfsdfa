@@ -17,5 +17,21 @@ flex: 1 0 auto;
 flex: 0 0 auto;
 }
 a{
-    color: azure
+    color: palevioletred
+}
+menu a {color: black;}
+.menu ul{
+    background-color:blueviolet;
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+a:hover {
+    background-color:aqua;
+    height:20px;
 }
